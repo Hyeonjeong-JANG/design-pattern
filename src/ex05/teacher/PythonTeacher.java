@@ -1,4 +1,4 @@
-package ex04.teacher;
+package ex05.teacher;
 
 /**
  * 이렇게 하면 OCP는 지켰지만 DIP를 지키지 못한 것이다. 추상화 시키지 않았어.
