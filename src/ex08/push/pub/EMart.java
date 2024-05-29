@@ -5,7 +5,7 @@ import ex08.push.sub.Customer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LotteMart implements Mart {
+public class EMart implements Mart {
 
     private List<Customer> customerList = new ArrayList<>(); // 구독자 명단
 
@@ -15,8 +15,8 @@ public class LotteMart implements Mart {
     }
 
     @Override
-    public void received() {
-        for (int i = 0; i < 5; i++) {
+    public void received() { // received가 while이 걸린다는 것은 선이 연결되어있다는 뜻이야. 근데 지금은 while이 걸려 있지 않다.
+        for (int i = 0; i < 15; i++) {
             System.out.println(".");
             try {
                 Thread.sleep(1000);
@@ -25,7 +25,7 @@ public class LotteMart implements Mart {
             }
         }
         // 5초 지나면 알림 줘야 함.
-        notify("LotteMart: 바나나");
+        notify("EMart: 딸기");
     }
 
     @Override

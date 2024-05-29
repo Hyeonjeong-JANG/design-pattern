@@ -1,6 +1,6 @@
 package ex08.push.sub;
 
-public class Customer2 implements Customer {
+public class Cus2 implements Customer {
 
     @Override
     public void update(String msg) {
