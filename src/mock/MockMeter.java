@@ -1,4 +1,4 @@
-package sample;
+package mock;
 
 // 프론트 개발자가 가짜로
 public class MockMeter implements Meter {

@@ -1,4 +1,4 @@
-package sample;
+package mock;
 
 public class MeterService {
     private Meter meter;
