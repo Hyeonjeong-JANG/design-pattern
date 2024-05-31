@@ -1,4 +1,6 @@
-package ex10;
+package ex10.command;
+
+import ex10.lamp.Lamp;
 
 public class LampCommand implements Command {
 

@@ -1,4 +1,4 @@
-package ex07.lib;
+package ex07factory.lib;
 
 public enum Driver {
     ORACLE("oracle"),

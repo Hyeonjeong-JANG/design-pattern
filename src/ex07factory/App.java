@@ -1,7 +1,7 @@
-package ex07;
+package ex07factory;
 
-import ex07.lib.DB;
-import ex07.lib.Driver;
+import ex07factory.lib.DB;
+import ex07factory.lib.Driver;
 
 public class App {
     public static void main(String[] args) {

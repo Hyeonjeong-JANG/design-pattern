@@ -1,4 +1,6 @@
-package ex10;
+package ex10.command;
+
+import ex10.alarm.Alarm;
 
 public class AlarmCommand implements Command {
     private Alarm alarm;

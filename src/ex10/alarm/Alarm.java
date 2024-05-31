@@ -1,4 +1,4 @@
-package ex10;
+package ex10.alarm;
 
 public class Alarm {
     public void alarmOn() {

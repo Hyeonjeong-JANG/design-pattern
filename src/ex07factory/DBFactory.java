@@ -1,9 +1,9 @@
-package ex07;
+package ex07factory;
 
-import ex07.lib.DB;
-import ex07.lib.Driver;
-import ex07.lib.MariaDB;
-import ex07.lib.OracleDB;
+import ex07factory.lib.DB;
+import ex07factory.lib.Driver;
+import ex07factory.lib.MariaDB;
+import ex07factory.lib.OracleDB;
 
 public class DBFactory {
 
